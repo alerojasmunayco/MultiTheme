@@ -1,1 +1,176 @@
 /* Ingresa tu código CSS aquí */
+body {
+    overflow-x: hidden;
+}
+
+.navbar-brand img{
+	padding:0% 34%!important;
+}
+.navbar-default {
+    border-color: transparent;
+    background-color:white;
+}
+.navbar-default .navbar-collapse {
+	padding:2% 14%!important;
+}
+.navbar-default .navbar-brand {
+    color:black;
+}
+
+.navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: white;
+    background-color: black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: black;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color:black;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: black;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #fec503;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 15px 0;
+        border: 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color:white;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+/*HEADER*/
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+	height: 100%!important;
+}
+.carousel-caption{
+	right:4%!important;
+	left:4%!important;
+}
+.carousel-caption h3{
+	font-weight:500;
+}
+
+.carousel-caption h3 span{
+	color:#009FE8!important;
+}
+.btn{
+	background-color:#009FE8;
+	color:white;
+	width:10%;
+	padding:0% 0%;
+	border-radius:0;
+}
+/*OUR WORKS*/
+.our-works{
+	background-color:#DADBDF;
+	text-align: center;
+	padding:5% 15%;
+}
+.our-works p {
+	padding:2% 5%;
+}
+.our-works a{
+	text-decoration: none;
+	background-color: #009FE8;
+	font-size:1.4em;
+	color:white;
+	padding:0.5%;
+}
+.our-works img{
+	padding:15% 0% 8%;
+	width:100%;
+}
+.about-us{
+	text-align:center;
+	padding:5% 15%;
+}
+.about-us p {
+	padding:2% 5%;
+}
+.about-us i{
+	color:#009FE8;
+}
+.checks{
+	padding:3% 0%;
+}
+.get-touch{
+	color:white;
+	background-color: #009FE8;
+	text-align: center;
+	padding:5% 15%;
+}
+.get-touch p{
+	padding:2% 5%;
+}
+.container-fluid{
+	padding:0!important;
+}
+.mapa{
+	position: relative;
+	background-attachment: fixed;
+}
+.datos{
+	width: 30%;
+	background-color: #fff;
+	opacity: 0.8;
+	position: absolute;
+	bottom: 10%;
+	font-size: 20px;
+	padding: 5%;
+	right: 8%;
+	text-decoration: none;
+}
+p{
+	padding: 3% 0%;
+}
